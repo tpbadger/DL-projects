@@ -1,7 +1,7 @@
 
 # Racket Classifier
 
-Tennis and squash rackets look very similar so thought this would be an interesting first project from the DL for coders course. Learnt a lot doing 
+Tennis and squash rackets look very similar so thought this would be an interesting first project from the DL for coders course. Learnt a lot! 
 
 
 ```python
