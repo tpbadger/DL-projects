@@ -239,7 +239,7 @@ interp.plot_confusion_matrix()
 ![png](output_26_0.png)
 
 
-Can see that the main cause of error is badminton rackets being predicted when they are actually tennis and squash rackets. This is a bit weird as i'd say that badminton rackets are a bit more unique than squash and tennis rackets..
+Can see that the main cause of error is badminton rackets being predicted when they are actually tennis and squash rackets. This is a bit weird as i'd say that badminton rackets are a bit more unique when compared to squash and tennis rackets. However, the error may be as a result of unclean data...
 
 ### Cleaning up the data a bit better
 
@@ -432,7 +432,7 @@ learn_final.fit_one_cycle(4, max_lr = slice(5e-5,4e-4))
 </table>
 
 
-Nice so changing the learning rate to make it more granular we are getting 96% accuracy! Lets save those weights! 
+Nice so changing the learning rate to make it more granular we are getting 96% accuracy! Lets save those weights and test it with some photos ive taken.
 
 
 ```python
